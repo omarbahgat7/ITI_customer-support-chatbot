@@ -3,7 +3,7 @@ import joblib
 import pickle
 import faiss
 import torch
-import torch
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 
