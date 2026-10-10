@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Studios</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+            margin: 0;
+            padding: 20px;
+        }
+
+        
+        .studio {
+            width: 30%;
+            float: left;
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .studio img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .studio h3 {
+            color: #333;
+            margin-top: 15px;
+        }
+
+        .studio p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+       
+        .clr {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="studio">
+        <img src="https://i.ibb.co/zHZ3wpSY/maxresdefault.jpg" alt="DreamWorks">
+        <h3>DREAMWORKS</h3>
+        <p>DreamWorks Animation is a major animation studio known for hits like “Shrek” and “How to Train Your Dragon.”</p>
+        <a href="https://ibb.co/BKBhRbgx" target="_blank" class="btn">Learn More</a>
+    </div>
+
+    <div class="studio">
+        <img src="https://i.ibb.co/Vc60SHPy/Disney.jpg" alt="Disney">
+        <h3>DISNEY</h3>
+        <p>Walt Disney Studios is a global leader in family entertainment, creating timeless animated classics and blockbuster films.</p>
+        <a href="https://ibb.co/KpncqN3Z" target="_blank" class="btn">Learn More</a>
+    </div>
+
+    <div class="studio">
+        <img src="https://i.ibb.co/WNBFcFrs/photo.png" alt="Pixar">
+        <h3>PIXAR</h3>
+        <p>Pixar Animation Studios is celebrated for its groundbreaking CGI technology and emotionally powerful storytelling.</p>
+        <a href="https://ibb.co/hx2HKHGC" target="_blank" class="btn">Learn More</a>
+    </div>
+
+    <div class="clr"></div>
+
+</body>
+</html>
